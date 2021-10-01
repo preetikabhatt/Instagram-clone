@@ -1,0 +1,55 @@
+import java.util.*;
+
+public class Main {
+   public static void main(String args[]) {
+       Scanner s = new Scanner(System.in);
+       int n = s.nextInt();
+       int[] arr = new int[n];
+       for (int i = 0; i < n; i++)
+           arr[i] = s.nextInt();
+       duplicateAndMissingIntegers(arr, n);
+   }
+
+   // Method to find duplicate and missing integers in array
+   static void duplicateAndMissingIntegers(int a[], int n) {
+       int i, j, c=0, d=0, x;
+       int mis[] = new int[n];
+       int ext[] = new int[n];
+       
+       for(i=1; i<=n; i++)
+       {
+           x=0;
+           for(j=0; j<n; j++)
+           {
+               if(a[j]==i)
+               x++;
+           }
+           if(x==0)
+           mis[c++]=i;
+           else if(x>1)
+           ext[d++]=i;
+       }
+       if(d==0)
+       System.out.println("There are no duplicate integers");
+       if(c==0)
+       System.out.println("There are no missing integers");
+       
+       if(d>0)
+       {
+           for(i=0; i<d; i++)
+           System.out.print(ext[i] +" ");
+           System.out.println();
+       }
+       
+       
+       if(c>0)
+       {
+           for(i=0; i<c; i++)
+           System.out.print(mis[i]+" ");
+           System.out.println();
+       }
+       
+       
+       
+   }
+}
