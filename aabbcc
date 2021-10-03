@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 public class Main
 {
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class Main
 	        if(((p1-p2)%(s2-s1))==0)
 	        System.out.println("YES");
 	        else
-	        System.out.println("NO");
+	        System.out.print("NO");
 	    }
 	}
 }
