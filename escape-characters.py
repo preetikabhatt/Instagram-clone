@@ -1,4 +1,4 @@
-print("hello World")
+print("hello")
 print('bipul\'s')
 print("bbs\"ss")
 # \' ==> ' (In b/w)
