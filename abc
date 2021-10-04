@@ -1,34 +1,4 @@
 import java.util.*;
-G
-
-
-
-
-Gand Main Ungli Karoge to......smeell to aayega
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Main garreeb hoon balle balle mujhe Shirts do
-
-
-
-
-
-
 public class Main {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
@@ -77,10 +47,5 @@ public class Main {
            System.out.print(mis[i]+" ");
            System.out.println();
        }
-       
-       
-       Jiya ho bihaar ke lala
    }
 }
-Main gareeb hoon balle balle 
-Shirt hi shirt hongi 
