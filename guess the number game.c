@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
     int number, guess, No_Of_Guesses = 1;
