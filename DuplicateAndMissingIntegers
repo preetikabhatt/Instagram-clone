@@ -24,7 +24,7 @@ public class Main {
                if(a[j]==i)
                x++;
            }
-           if(x==0)
+           if(x==0&&x==1)
            mis[c++]=i;
            else if(x>1)
            ext[d++]=i;
