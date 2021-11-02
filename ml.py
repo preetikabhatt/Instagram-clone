@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 #(['data', 'target', 'frame', 'DESCR', 'feature_names', 
 # 'data_filename', 'target_filename'])
 diabetes = datasets.load_diabetes()
-diabetes_X = diabetes.data[:,np.newaxis,2]
+diabetes_X = diabetes.data[:,np.newaxis,6]
 
 diabetes_X_train = diabetes_X[:-30]
 diabetes_X_test = diabetes_X[-30:]
