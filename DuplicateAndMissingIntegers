@@ -37,7 +37,7 @@ public class Main {
        if(d>0)
        {
            for(i=0; i<d; i++)
-           System.out.print(ext[i] +" ");
+           System.out.println(ext[i] +" ");
            System.out.println();
        }
        
